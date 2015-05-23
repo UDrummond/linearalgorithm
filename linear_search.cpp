@@ -13,7 +13,6 @@ int linear_search(char Array[],int size,char search)
 
     }
     return -1;
-
 }
 
 int main()
