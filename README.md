@@ -1,1 +1,1 @@
-# linearalgorithm
+# linear search algorithm
