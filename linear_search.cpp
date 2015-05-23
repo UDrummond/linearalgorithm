@@ -13,6 +13,7 @@ int linear_search(char Array[],int size,char search)
 
     }
     return -1;
+
 }
 
 int main()
@@ -24,6 +25,7 @@ int main()
 
     cout <<"Enter characters ("<< size <<") max:";
     cin.getline (Array,size);
+
     cout<<"\nEnter search:";
     cin >> search;
 
@@ -31,11 +33,11 @@ int main()
 
     if(result == -1)
     {
-        cout <<"Not found";
+        cout <<"\n"<<"Not found";
     }
     else
     {
-        cout << Array[result] <<" found at location:" << result << endl;
+        cout << "\n" << search <<" found at location: " << result << endl;
     }
 
     return 0;
