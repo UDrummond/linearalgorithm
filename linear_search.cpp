@@ -1,3 +1,4 @@
+//Michael Drummond linear search
 #include <iostream>
 using namespace std;
 
