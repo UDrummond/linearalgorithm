@@ -19,7 +19,7 @@ int linear_search(char Array[],int size,char search)
 int main()
 {
 
-    const int size = 10;
+    const int size = 100;
     char Array[size];
     char search;
 
