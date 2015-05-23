@@ -26,12 +26,12 @@ int main()
     cout <<"Enter characters ("<< size <<") max:";
     cin.getline (Array,size);
 
-    cout <<"Search index:";
+   /* cout <<"Search index:";
 
-    for(int i=0; i<size; i++)
+    for(int i=0; i<size; i++)  // bug
     {
         cout <<Array[i];
-    }
+    }*/
 
     cout<<"\nEnter search:";
     cin >> search;
@@ -44,7 +44,7 @@ int main()
     }
     else
     {
-        cout << Array[result] <<" found at location:" << result;
+        cout << Array[result] <<" found at location:" << result << endl;
     }
 
     return 0;
